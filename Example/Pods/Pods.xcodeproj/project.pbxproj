@@ -17,6 +17,8 @@
 		C2806E361EEEB88600BF0DF5 /* BXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E341EEEB88600BF0DF5 /* BXNavigationController.m */; };
 		C2806E391EEEBAAD00BF0DF5 /* BXBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E371EEEBAAD00BF0DF5 /* BXBaseViewController.h */; };
 		C2806E3A1EEEBAAD00BF0DF5 /* BXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E381EEEBAAD00BF0DF5 /* BXBaseViewController.m */; };
+		C2806E591EEF957300BF0DF5 /* UITextField+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E571EEF957300BF0DF5 /* UITextField+BXExtension.h */; };
+		C2806E5A1EEF957300BF0DF5 /* UITextField+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E581EEF957300BF0DF5 /* UITextField+BXExtension.m */; };
 		C3B6F7BD4A77A7D34A387FD4DBB06AB3 /* Pods-BXUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D7726D67AACB9F626A4DB553F9D9C /* Pods-BXUIKit_Example-dummy.m */; };
 		D0F86F4CC0D56AC68506C4978C9258A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E2276A1CA57575E874A87CB485BAFDE6 /* Pods-BXUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32EE5506DF43798A991A84F4C063BD /* Pods-BXUIKit_Tests-dummy.m */; };
@@ -63,6 +65,8 @@
 		C2806E341EEEB88600BF0DF5 /* BXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXNavigationController.m; sourceTree = "<group>"; };
 		C2806E371EEEBAAD00BF0DF5 /* BXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXBaseViewController.h; sourceTree = "<group>"; };
 		C2806E381EEEBAAD00BF0DF5 /* BXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXBaseViewController.m; sourceTree = "<group>"; };
+		C2806E571EEF957300BF0DF5 /* UITextField+BXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BXExtension.h"; sourceTree = "<group>"; };
+		C2806E581EEF957300BF0DF5 /* UITextField+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BXExtension.m"; sourceTree = "<group>"; };
 		C3A2A6BC57B0FDD7460365D631238F9E /* Pods-BXUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5806EC7E721D76BC842D01A220B5E2D /* Pods-BXUIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXUIKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		C58FB7672EDEA32F24BA120FAAD3CCA7 /* Pods-BXUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				C2806E341EEEB88600BF0DF5 /* BXNavigationController.m */,
 				C2806E371EEEBAAD00BF0DF5 /* BXBaseViewController.h */,
 				C2806E381EEEBAAD00BF0DF5 /* BXBaseViewController.m */,
+				C2806E571EEF957300BF0DF5 /* UITextField+BXExtension.h */,
+				C2806E581EEF957300BF0DF5 /* UITextField+BXExtension.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2806E591EEF957300BF0DF5 /* UITextField+BXExtension.h in Headers */,
 				C2806E391EEEBAAD00BF0DF5 /* BXBaseViewController.h in Headers */,
 				84B3503F75B28F660EE3BFCC51E64699 /* BXUIKit-umbrella.h in Headers */,
 				C2806E351EEEB88600BF0DF5 /* BXNavigationController.h in Headers */,
@@ -363,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2806E5A1EEF957300BF0DF5 /* UITextField+BXExtension.m in Sources */,
 				C2806E321EEEB85400BF0DF5 /* BXTabBarViewController.m in Sources */,
 				C2806E3A1EEEBAAD00BF0DF5 /* BXBaseViewController.m in Sources */,
 				38B0D73759F5CF12522985B145E4F008 /* BXUIKit-dummy.m in Sources */,
