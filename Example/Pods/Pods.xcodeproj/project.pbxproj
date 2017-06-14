@@ -19,6 +19,18 @@
 		C2806E3A1EEEBAAD00BF0DF5 /* BXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E381EEEBAAD00BF0DF5 /* BXBaseViewController.m */; };
 		C2806E591EEF957300BF0DF5 /* UITextField+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E571EEF957300BF0DF5 /* UITextField+BXExtension.h */; };
 		C2806E5A1EEF957300BF0DF5 /* UITextField+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E581EEF957300BF0DF5 /* UITextField+BXExtension.m */; };
+		C2806E5D1EEF9A0400BF0DF5 /* UIView+BXFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E5B1EEF9A0400BF0DF5 /* UIView+BXFrame.h */; };
+		C2806E5E1EEF9A0400BF0DF5 /* UIView+BXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E5C1EEF9A0400BF0DF5 /* UIView+BXFrame.m */; };
+		C2806E611EEF9B0400BF0DF5 /* UIView+BXDraggable.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E5F1EEF9B0400BF0DF5 /* UIView+BXDraggable.h */; };
+		C2806E621EEF9B0400BF0DF5 /* UIView+BXDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E601EEF9B0400BF0DF5 /* UIView+BXDraggable.m */; };
+		C2806E651EEF9C6E00BF0DF5 /* UIColor+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E631EEF9C6E00BF0DF5 /* UIColor+BXExtension.h */; };
+		C2806E661EEF9C6E00BF0DF5 /* UIColor+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E641EEF9C6E00BF0DF5 /* UIColor+BXExtension.m */; };
+		C2806E691EEFB8C300BF0DF5 /* UIButton+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E671EEFB8C300BF0DF5 /* UIButton+BXExtension.h */; };
+		C2806E6A1EEFB8C300BF0DF5 /* UIButton+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E681EEFB8C300BF0DF5 /* UIButton+BXExtension.m */; };
+		C2806E6D1EEFBA2A00BF0DF5 /* UIImage+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E6B1EEFBA2A00BF0DF5 /* UIImage+BXExtension.h */; };
+		C2806E6E1EEFBA2A00BF0DF5 /* UIImage+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E6C1EEFBA2A00BF0DF5 /* UIImage+BXExtension.m */; };
+		C2806E711EEFBC6700BF0DF5 /* UIScrollView+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2806E6F1EEFBC6700BF0DF5 /* UIScrollView+RBExtension.h */; };
+		C2806E721EEFBC6700BF0DF5 /* UIScrollView+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2806E701EEFBC6700BF0DF5 /* UIScrollView+RBExtension.m */; };
 		C3B6F7BD4A77A7D34A387FD4DBB06AB3 /* Pods-BXUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D7726D67AACB9F626A4DB553F9D9C /* Pods-BXUIKit_Example-dummy.m */; };
 		D0F86F4CC0D56AC68506C4978C9258A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E2276A1CA57575E874A87CB485BAFDE6 /* Pods-BXUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32EE5506DF43798A991A84F4C063BD /* Pods-BXUIKit_Tests-dummy.m */; };
@@ -67,6 +79,18 @@
 		C2806E381EEEBAAD00BF0DF5 /* BXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXBaseViewController.m; sourceTree = "<group>"; };
 		C2806E571EEF957300BF0DF5 /* UITextField+BXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BXExtension.h"; sourceTree = "<group>"; };
 		C2806E581EEF957300BF0DF5 /* UITextField+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BXExtension.m"; sourceTree = "<group>"; };
+		C2806E5B1EEF9A0400BF0DF5 /* UIView+BXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BXFrame.h"; sourceTree = "<group>"; };
+		C2806E5C1EEF9A0400BF0DF5 /* UIView+BXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BXFrame.m"; sourceTree = "<group>"; };
+		C2806E5F1EEF9B0400BF0DF5 /* UIView+BXDraggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BXDraggable.h"; sourceTree = "<group>"; };
+		C2806E601EEF9B0400BF0DF5 /* UIView+BXDraggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BXDraggable.m"; sourceTree = "<group>"; };
+		C2806E631EEF9C6E00BF0DF5 /* UIColor+BXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BXExtension.h"; sourceTree = "<group>"; };
+		C2806E641EEF9C6E00BF0DF5 /* UIColor+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BXExtension.m"; sourceTree = "<group>"; };
+		C2806E671EEFB8C300BF0DF5 /* UIButton+BXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BXExtension.h"; sourceTree = "<group>"; };
+		C2806E681EEFB8C300BF0DF5 /* UIButton+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BXExtension.m"; sourceTree = "<group>"; };
+		C2806E6B1EEFBA2A00BF0DF5 /* UIImage+BXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BXExtension.h"; sourceTree = "<group>"; };
+		C2806E6C1EEFBA2A00BF0DF5 /* UIImage+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BXExtension.m"; sourceTree = "<group>"; };
+		C2806E6F1EEFBC6700BF0DF5 /* UIScrollView+RBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+RBExtension.h"; sourceTree = "<group>"; };
+		C2806E701EEFBC6700BF0DF5 /* UIScrollView+RBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+RBExtension.m"; sourceTree = "<group>"; };
 		C3A2A6BC57B0FDD7460365D631238F9E /* Pods-BXUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5806EC7E721D76BC842D01A220B5E2D /* Pods-BXUIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXUIKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		C58FB7672EDEA32F24BA120FAAD3CCA7 /* Pods-BXUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -172,6 +196,18 @@
 				C2806E381EEEBAAD00BF0DF5 /* BXBaseViewController.m */,
 				C2806E571EEF957300BF0DF5 /* UITextField+BXExtension.h */,
 				C2806E581EEF957300BF0DF5 /* UITextField+BXExtension.m */,
+				C2806E5B1EEF9A0400BF0DF5 /* UIView+BXFrame.h */,
+				C2806E5C1EEF9A0400BF0DF5 /* UIView+BXFrame.m */,
+				C2806E5F1EEF9B0400BF0DF5 /* UIView+BXDraggable.h */,
+				C2806E601EEF9B0400BF0DF5 /* UIView+BXDraggable.m */,
+				C2806E631EEF9C6E00BF0DF5 /* UIColor+BXExtension.h */,
+				C2806E641EEF9C6E00BF0DF5 /* UIColor+BXExtension.m */,
+				C2806E671EEFB8C300BF0DF5 /* UIButton+BXExtension.h */,
+				C2806E681EEFB8C300BF0DF5 /* UIButton+BXExtension.m */,
+				C2806E6B1EEFBA2A00BF0DF5 /* UIImage+BXExtension.h */,
+				C2806E6C1EEFBA2A00BF0DF5 /* UIImage+BXExtension.m */,
+				C2806E6F1EEFBC6700BF0DF5 /* UIScrollView+RBExtension.h */,
+				C2806E701EEFBC6700BF0DF5 /* UIScrollView+RBExtension.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -251,8 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2806E591EEF957300BF0DF5 /* UITextField+BXExtension.h in Headers */,
+				C2806E611EEF9B0400BF0DF5 /* UIView+BXDraggable.h in Headers */,
+				C2806E711EEFBC6700BF0DF5 /* UIScrollView+RBExtension.h in Headers */,
+				C2806E651EEF9C6E00BF0DF5 /* UIColor+BXExtension.h in Headers */,
 				C2806E391EEEBAAD00BF0DF5 /* BXBaseViewController.h in Headers */,
+				C2806E691EEFB8C300BF0DF5 /* UIButton+BXExtension.h in Headers */,
 				84B3503F75B28F660EE3BFCC51E64699 /* BXUIKit-umbrella.h in Headers */,
+				C2806E6D1EEFBA2A00BF0DF5 /* UIImage+BXExtension.h in Headers */,
+				C2806E5D1EEF9A0400BF0DF5 /* UIView+BXFrame.h in Headers */,
 				C2806E351EEEB88600BF0DF5 /* BXNavigationController.h in Headers */,
 				C2806E311EEEB85400BF0DF5 /* BXTabBarViewController.h in Headers */,
 			);
@@ -371,10 +413,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2806E5A1EEF957300BF0DF5 /* UITextField+BXExtension.m in Sources */,
+				C2806E6E1EEFBA2A00BF0DF5 /* UIImage+BXExtension.m in Sources */,
 				C2806E321EEEB85400BF0DF5 /* BXTabBarViewController.m in Sources */,
 				C2806E3A1EEEBAAD00BF0DF5 /* BXBaseViewController.m in Sources */,
 				38B0D73759F5CF12522985B145E4F008 /* BXUIKit-dummy.m in Sources */,
+				C2806E5E1EEF9A0400BF0DF5 /* UIView+BXFrame.m in Sources */,
+				C2806E621EEF9B0400BF0DF5 /* UIView+BXDraggable.m in Sources */,
 				C2806E361EEEB88600BF0DF5 /* BXNavigationController.m in Sources */,
+				C2806E721EEFBC6700BF0DF5 /* UIScrollView+RBExtension.m in Sources */,
+				C2806E661EEF9C6E00BF0DF5 /* UIColor+BXExtension.m in Sources */,
+				C2806E6A1EEFB8C300BF0DF5 /* UIButton+BXExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

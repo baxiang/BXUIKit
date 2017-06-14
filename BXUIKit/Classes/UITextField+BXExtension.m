@@ -23,7 +23,6 @@ static const void *BXTextFieldInputLimitMaxLength = &BXTextFieldInputLimitMaxLen
     //获取高亮部分
     UITextRange *selectedRange = [self markedTextRange];
     UITextPosition *position = [self positionFromPosition:selectedRange.start offset:0];
-    
     //没有高亮选择的字，则对已输入的文字进行字数统计和限制
     //在iOS7下,position对象总是不为nil
     if ( (!position ||!selectedRange) && (self.maxLimitLength > 0 && toBeString.length > self.maxLimitLength))

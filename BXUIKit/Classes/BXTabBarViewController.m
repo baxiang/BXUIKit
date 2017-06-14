@@ -13,6 +13,24 @@
 @end
 
 @implementation BXTabBarViewController
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return [self.selectedViewController shouldAutorotateToInterfaceOrientation:interfaceOrientation];
+}
+
+- (BOOL)shouldAutorotate
+{
+    return self.selectedViewController.shouldAutorotate;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return self.selectedViewController.supportedInterfaceOrientations;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return self.selectedViewController.preferredStatusBarStyle;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
